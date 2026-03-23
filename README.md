@@ -4,11 +4,17 @@ An automated release communication system that ingests completed Linear tickets 
 
 ## Overview
 
-Release communication is a recurring workflow where the same engineering information gets rewritten multiple times across Product, Sales, CS, and internal teams — creating inconsistency, missed migration instructions, and accidental exposure of internal work.
+Release communication is a recurring workflow where the same engineering information gets rewritten multiple times across Product, Sales, CS, and internal teams, creating inconsistency, missed migration instructions, and accidental exposure of internal work.
 
 This system introduces a structured intelligence layer that classifies tickets once and generates all five outputs from a single source of truth.
 
 **Classify once. Write five ways.**
+
+## Why I Built This
+
+In ops and strategy roles, I kept seeing the same breakdown: engineers would ship something, and then three different people would write three different versions of what just happened — each one missing something the others caught. The problem wasn't effort. It was that there was no single source of truth driving the communication layer.
+
+This tool is that source of truth.
 
 ## How It Works
 
